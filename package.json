@@ -1,0 +1,38 @@
+{
+  "name": "aws-cost-explorer",
+  "version": "0.1.0",
+  "description": "Simple AWS Cost Explorer API Implementation",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "2.166.0",
+    "config": "^1.28.1",
+    "moment": "^2.19.3",
+    "underscore": "^1.8.3"
+  },
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnavarrom/aws-cost-explorer.git"
+  },
+  "keywords": [
+    "AWS",
+    "Cost",
+    "Explorer",
+    "Costs"
+  ],
+  "author": "Diego Navarro M",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dnavarrom/aws-cost-explorer/issues"
+  },
+  "homepage": "https://github.com/dnavarrom/aws-cost-explorer#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
