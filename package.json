@@ -1,6 +1,6 @@
 {
   "name": "aws-cost-explorer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple AWS Cost Explorer API Implementation",
   "main": "index.js",
   "dependencies": {
