@@ -34,24 +34,21 @@ source : [Billing And Cost Management](http://docs.aws.amazon.com/awsaccountbill
 ## Usage
 
 ```
-
 var CostExplorer = require('aws-cost-explorer');
 var ce = CostExplorer();
 
-ce.getMonthToDateCosts(null, function(error, data) {
-    if (err)
+ce.getMonthToDateCosts(null, function(err, data) {
+    if (err) {
         console.log(err);
-    else
+    } else {
         console.dir(data, { depth: null });
+    }
 });
-
-
 ```
 
 ### Passing AWS Configuration Options
 
 ```
-
 var config = { 
     apiVersion: '2017-10-25',
     accessKeyId : 'AKIAJVCSKEY3SAMPLE',
@@ -62,14 +59,13 @@ var config = {
 var CostExplorer = require('aws-cost-explorer');
 var ce = CostExplorer(config);
 
-ce.getMonthToDateCosts(null, function(error, data) {
-    if (err)
+ce.getMonthToDateCosts(null, function(err, data) {
+    if (err) {
         console.log(err);
-    else
+    } else {
         console.dir(data, { depth: null });
+    }
 });
-
-
 ```
 
 
@@ -78,18 +74,16 @@ ce.getMonthToDateCosts(null, function(error, data) {
 aws-cost-explorer uses [config](https://www.npmjs.com/package/config) module to automatically load aws config keys an values from [_dirname](https://nodejs.org/docs/latest/api/modules.html#modules_dirname)/config folder
 
 ```
-
 var CostExplorer = require('aws-cost-explorer');
 var ce = CostExplorer();
 
-ce.getMonthToDateCosts(null, function(error, data) {
-    if (err)
+ce.getMonthToDateCosts(null, function(err, data) {
+    if (err) {
         console.log(err);
-    else
+    } else {
         console.dir(data, { depth: null });
+    }
 });
-
-
 ```
 
 Sample default.json file located in _dirname/config folder
