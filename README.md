@@ -114,6 +114,8 @@ Sample default.json file located in _dirname/config folder
 
 #### getYearToDateCosts(opts, callback) 
 
+#### getTags(opts, callback) 
+
 ### Parameters
 
 #### opts (optional)
@@ -121,8 +123,14 @@ Sample default.json file located in _dirname/config folder
 
 ```
 opts = {
-    granularity : "MONTHLY" | "DAILY",
-    metrics : "BlendedCost" | "UnblendedCost"
+    granularity : "MONTHLY" | "DAILY" | "HOURLY",
+    metrics : "BlendedCost" | "UnblendedCost",
+    groupBy : [
+      {
+        'Type': 'TAG',
+        'Key': 'MyTagName' 
+      }
+    ]
 }
 ```
 ### Response Data
@@ -156,4 +164,15 @@ opts = {
 
 ## Samples
 
-Sample [Rest API](https://github.com/dnavarrom/aws-cost-explorer-api) using Express
+
+* Sample [Rest API](https://github.com/dnavarrom/aws-cost-explorer-api) using Express
+
+* Sample [Grafana Backend](https://github.com/dnavarrom/grafana-aws-cost-explorer-backend) using [Simple Json Datasource Plugin](https://grafana.com/plugins/grafana-simple-json-datasource/installation)
+
+## Changelog
+
+1.1.2 
+* Add GetTags method support
+* Update reference to Grafana Backend Demo
+1.1.1 First Release
+
