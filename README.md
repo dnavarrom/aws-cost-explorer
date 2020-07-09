@@ -116,6 +116,8 @@ Sample default.json file located in _dirname/config folder
 
 #### getTags(opts, callback) 
 
+#### getCostForADay(date, opts, callback)
+
 ### Parameters
 
 #### opts (optional)
