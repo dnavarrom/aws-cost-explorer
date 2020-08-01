@@ -174,13 +174,14 @@ opts = {
 
 ## Changelog
 
-0.1.3
-* Add GetCost filtering using timeframes
-* Examples
-* Doc
-* Dependency problems fixed
-0.1.2 
-* Add GetTags method support
-* Update reference to Grafana Backend Demo
-0.1.1 First Release
+* 0.1.3
+    * Add GetCost filtering using timeframes
+    * Examples
+    * Doc
+    * Dependency problems fixed
+* 0.1.2 
+    * Add GetTags method support
+    * Update reference to Grafana Backend Demo
+* 0.1.1 
+    * First Release
 
