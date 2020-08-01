@@ -164,12 +164,13 @@ opts = {
 
 `npm tests`
 
-## Samples
+## Examples
 
+* Check [Example folder](https://github.com/dnavarrom/aws-cost-explorer/blob/master/examples/)
 
-* Sample [Rest API](https://github.com/dnavarrom/aws-cost-explorer-api) using Express
+* [Rest API](https://github.com/dnavarrom/aws-cost-explorer-api) using Express
 
-* Sample [Grafana Backend](https://github.com/dnavarrom/grafana-aws-cost-explorer-backend) using [Simple Json Datasource Plugin](https://grafana.com/plugins/grafana-simple-json-datasource/installation)
+* [Grafana Backend](https://github.com/dnavarrom/grafana-aws-cost-explorer-backend) using [Simple Json Datasource Plugin](https://grafana.com/plugins/grafana-simple-json-datasource/installation)
 
 ## Changelog
 
