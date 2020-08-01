@@ -1,7 +1,7 @@
 # aws-cost-explorer
 
 
-Simple AWS Cost Explorer API Implementation
+Simple AWS Cost Explorer API Implementation for Node.js
 
 ## Installation
 
