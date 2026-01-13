@@ -4,7 +4,7 @@
   "description": "Simple AWS Cost Explorer API Implementation",
   "main": "index.js",
   "dependencies": {
-    "aws-sdk": "2.166.0",
+    "aws-sdk": "2.1693.0",
     "config": "^1.28.1",
     "moment": "^2.19.3",
     "underscore": "^1.8.3"
